@@ -5,15 +5,11 @@ standalone SDK Manager both can download from. Ideal for a crowded place,
 e.g. classroom, [Study Jams](http://developerstudyjams.com/),
 and [Code labs](https://codelabs.developers.google.com/?cat=Android).
 
-Tested on 
-
-* Linux Mint Rebecca (17.1, Ubuntu 14.04),
-* Windows 7 64bit
-* macOS Sierra (10.12.6)
+Tested on Debian Trixie
 
 ## Prerequisites
 
-* 127 GB storage on your disk, as of 2020-12-30
+* 471 GB storage on disk, as of 2025-06-05
 * wget
   * macOS, `brew install wget` (http://brew.sh/)
   * Windows, install wget with [Cygwin](https://cygwin.com/install.html)
@@ -35,8 +31,6 @@ set environment variable, `DL_HOST`. e.g.
 ```bash
 export DL_HOST=https://some-mirror
 ```
-
-See also [Known Mirrors](https://github.com/renfeng/android-repository/wiki/Known-Mirrors).
 
 ## Client setup
 
