@@ -9,18 +9,24 @@ echo synchronizing indices
 
 # TODO auto detect latest version, e.g. 2-1 and 3
 # How to discover these files?
-# Option 1, proxy and logging;
+# Option 1, proxy and logging
 # Option 2, ????
 sites=("repository")
+sites+=("repository-10")
+sites+=("repository-11")
+sites+=("repository-12")
 sites+=("repository2-1")
 sites+=("repository2-2")
 sites+=("repository2-3")
 
+addon_sites=("addon")
+addon_sites=("addon-6")
 addon_sites=("addons_list-1")
 addon_sites+=("addons_list-2")
 addon_sites+=("addons_list-3")
 addon_sites+=("addons_list-4")
 addon_sites+=("addons_list-5")
+addon_sites+=("addons_list-6")
 
 for addon_site in "${addon_sites[@]}"; do
     wget -N "${DL_HOST}/${DL_PATH}/${addon_site}.xml" -P ${DL_PATH}

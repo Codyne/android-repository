@@ -2,8 +2,7 @@
 
 It mirrors Android SDKs, which Android Studio built-in and
 standalone SDK Manager both can download from. Ideal for a crowded place,
-e.g. classroom, [Study Jams](http://developerstudyjams.com/),
-and [Code labs](https://codelabs.developers.google.com/?cat=Android).
+e.g. [Code labs](https://codelabs.developers.google.com/?cat=Android).
 
 Tested on Debian Trixie
 
